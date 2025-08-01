@@ -1,0 +1,75 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+.out/
+.next/
+.vercel/
+
+# Temporary files
+tmp/
+temp/
+.cache/
+coverage/
+.vscode/
+.idea/
+
+# Dependency lock files (optional to ignore if you're not locking)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Static site generators (e.g., Hugo, Jekyll)
+public/
+
+# Firebase / Netlify / Vercel deployments
+.firebaserc
+.firebase/
+.netlify/
+.vercel/
+
+# Svelte / Vite / Astro specific
+.svelte-kit/
+.vite/
+
+# Optional: ignore uploads/media folder (if dynamically added by users)
+uploads/
+media/
+
+# Testing
+jest-coverage/
+cypress/videos/
+cypress/screenshots/
+
+# Next.js
+.next/
+
+# Nuxt
+.nuxt/
+
+# Vue
+node_modules/
+dist/
+
+# React Native (if mobile component involved)
+android/
+ios/
